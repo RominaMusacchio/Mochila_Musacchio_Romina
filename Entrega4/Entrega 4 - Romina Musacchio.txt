@@ -1,0 +1,12 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?.
+Dependiendo del soporte y la compatibilidad los sistemas operativos serán capaces de leer/interpretar los lenguajes de programación. Si el sistema operativo no es compatible no va a entender al lenguaje de programación y por ende no podrá funcionar.
+
+¿Qué tipo de máquina virtual es virtualBox?.
+Es una virtualización del tipo “Sistema operativo”
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+
+No necesariamente. La “magia” de las máquinas virtuales es que se comportan ante nosotros como máquinas independientes, de esta manera si una falla las otras podrían seguir funcionando. Pueden estar hospedadas en sitios diferentes, en este caso no tendríamos problema, si tuviéramos todas en el mismo servidor y por algún motivo este falla, las otras también podrían fallar.  
+
